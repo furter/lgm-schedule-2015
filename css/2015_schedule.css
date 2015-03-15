@@ -145,11 +145,39 @@ p.schedule_summary {
 .schedule_item_break .schedule_toggle {
 	display: none;
 }
+/* lightning talks */
+.schedule_item_lightningtalk {
+	background-color: #DECADE;
+	color: white;
+	clear: none;
+}
+.schedule_item_lightningtalk a,
+.schedule_item_lightningtalk a:hover,
+.schedule_item_lightningtalk a:visited {
+	color: black;
+}
+/* party */
+.schedule_item_party {
+	background-color: #DECADE;
+	color: white;
+	clear: none;
+}
+.schedule_item_party a,
+.schedule_item_party a:hover,
+.schedule_item_party a:visited {
+	color: black;
+}
+
 /* OTHER: on-going coding + ad-hoc meeting and lightning talks, party etc */
 .schedule_item_other {
 	background-color: #DECADE;
 	color: white;
 	clear: none;
+}
+.schedule_item_other a,
+.schedule_item_other a:hover,
+.schedule_item_other a:visited {
+	color: black;
 }
 .schedule_item_other h3 {
 	text-align: center;
@@ -159,13 +187,6 @@ p.schedule_summary {
 /* NOT USED (need to be fixed) */
 .schedule_item_coding {
 	background-color: black;
-}
-.schedule_item_lightningtalk {
-	background-color: white;
-}
-.schedule_item_lightningtalk a,
-.schedule_item_specialother a {
-	color: black;
 }
 .schedule_biography {
     margin-top:6px;
@@ -181,6 +202,9 @@ p.schedule_summary {
 }
 .schedule_item_shorttalk {
 	background-color: white
+}
+.schedule_item_specialother a {
+	color: black;
 }
 
 @media print {
