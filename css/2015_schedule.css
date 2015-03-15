@@ -1,0 +1,198 @@
+/* @override 
+	http://libregraphicsmeeting.org/2015/wp/wp-content/themes/lgm15/2015_schedule.css */
+
+/* FONT OSP DIN */
+@font-face {
+	font-family: 'OSPDIN';
+      src: url('http://openfontlibrary.org/assets/fonts/osp-din/fa3d08bd4b819d71da421ae73c1bd1d1/114a17ff44eacac9eb358ae0b49fe3cc/OSPDINDIN.ttf') format('truetype');
+	font-weight: normal;
+  font-style: normal;
+}
+/* DATES */
+.schedule_date {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'OSPDIN';
+}
+h2.schedule_date {
+	font-size: 40px;
+	margin-left:60px;
+}
+/* TIME */
+.schedule_time {
+	float:left;
+}
+p.schedule_time {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	font-family: 'OSPDIN';
+	font-size: 25px;
+}
+/* GENERAL PROGRAM ITEMS */
+.schedule_item {
+	position:relative;
+	padding-left:7px;
+	margin-bottom: 1em;
+	margin-left:60px;
+}
+.schedule_item h3,
+.schedule_item p {
+	margin: 0;
+	padding: 0;
+	clear: none;
+}
+/* SPEAKER */
+.schedule_speaker {
+	font-style:italic;
+}
+/* TITLE */
+.schedule_title {
+	margin-top:0px;
+	margin-bottom:0px;
+	font-family: 'OSPDIN';
+	font-weight: normal;
+	font-style: normal;
+	text-align: center;
+}
+h3.schedule_title {
+	font-size: 30px;
+	line-height: 35px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+/* button DETAILS */
+.schedule_toggle {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+/* DESCRIPTION TEXT (hidden, appears when click on details) */
+.schedule_summary {
+  margin-top:0px;
+  margin-bottom:0px;
+}
+p.schedule_summary {
+	font-size: 90%;
+	margin-top: 0.5em;
+}
+/* SPECIFIC PARTS OF THE PROGRAM */
+/* PADDING items*/
+.schedule_item_presentation,
+.schedule_item_shorttalk,
+.schedule_item_meeting,
+.schedule_item_workshop {
+	padding: 0.5em 0.8em;
+}
+/* PRESENTATIONS */
+.schedule_item_presentation {
+	border: 3px solid #DECADE;
+	background-color: white;
+}
+.schedule_item_presentation a, .schedule_item_presentation a:visited{
+	color: black;
+}
+/* MEETINGS */
+.schedule_item_meeting {
+	background-color: white;
+	border: 3px solid black;
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 30px;
+	margin-right: 5px;
+	min-height: 200px;
+	word-wrap: normal;
+	-moz-hyphens: none;
+}
+.schedule_item_meeting:before {
+	content: "MEETING";
+	color: #DECADE;
+	font-weight: bold;
+}
+.schedule_item_meeting a, .schedule_item_meeting a:visited {
+	color: black;
+}
+/* WORKSHOPS */
+.schedule_item_workshop {
+	background-color: white;
+	border: 3px solid #DECADE;
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 30px;
+	margin-right: 5px;
+	min-height: 200px;
+	word-wrap: normal;
+	-moz-hyphens: none;
+}
+.schedule_item_workshop:before {
+	content: "WORKSHOP";
+	color: #DECADE;
+	font-weight: bold;
+}
+.schedule_item_workshop a, .schedule_item_workshop a:visited {
+	color: black;
+}
+/* BREAK */
+.schedule_item_break .schedule_title {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	clear: both;
+}
+.schedule_item_break .schedule_speaker {
+	display: none;
+}
+.schedule_item_break .schedule_toggle {
+	display: none;
+}
+/* OTHER: on-going coding + ad-hoc meeting and lightning talks, party etc */
+.schedule_item_other {
+	background-color: #DECADE;
+	color: white;
+	clear: both;
+}
+.schedule_item_other h3 {
+	text-align: center;
+	font-weight: bold;
+}
+
+/* NOT USED (need to be fixed) */
+.schedule_item_coding {
+	background-color: black;
+}
+.schedule_item_lightningtalk {
+	background-color: white;
+}
+.schedule_item_lightningtalk a,
+.schedule_item_specialother a {
+	color: black;
+}
+.schedule_biography {
+    margin-top:6px;
+    margin-bottom:0px;
+}
+.schedule_slides {
+    margin-top:6px;
+    margin-bottom:0px;
+}
+.schedule_presenter {
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.schedule_item_shorttalk {
+	background-color: white
+}
+
+@media print {
+	
+}
+@media screen and (max-width: 600px) {
+	.schedule_item_workshop {
+		width: 80%;
+		margin-left: 60px;
+	}
+	.schedule_item_meeting {
+		width: 80%;
+		margin-left: 60px;
+	}
+}
