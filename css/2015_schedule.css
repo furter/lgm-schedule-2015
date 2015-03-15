@@ -97,7 +97,7 @@ p.schedule_summary {
 	width: 25%;
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 30px;
+	margin-left: 17px;
 	margin-right: 5px;
 	min-height: 200px;
 	word-wrap: normal;
@@ -118,7 +118,7 @@ p.schedule_summary {
 	width: 25%;
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 10px;
+	margin-left: 17px;
 	margin-right: 5px;
 	min-height: 200px;
 	word-wrap: normal;
@@ -137,7 +137,7 @@ p.schedule_summary {
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
-	clear: both;
+	clear: none;
 }
 .schedule_item_break .schedule_speaker {
 	display: none;
@@ -149,7 +149,7 @@ p.schedule_summary {
 .schedule_item_other {
 	background-color: #DECADE;
 	color: white;
-	clear: both;
+	clear: none;
 }
 .schedule_item_other h3 {
 	text-align: center;
