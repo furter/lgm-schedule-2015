@@ -207,6 +207,12 @@ p.schedule_summary {
 .schedule_item_specialother a {
 	color: black;
 }
+.schedule_item_party {
+	background-image: url("http://lorainefurter.net/stars.png");
+	background-size: 52%;
+	background-color: black;
+	padding-top: 30px;
+}
 
 @media print {
 	.schedule_item {
