@@ -1,0 +1,36 @@
+/* @override 
+	http://libregraphicsmeeting.org/2015/wp/wp-content/themes/lgm15/2015_schedule.css */
+
+/* FONT OSP DIN */
+@font-face {
+	font-family: 'OSPDIN';
+    src: url('http://openfontlibrary.org/assets/fonts/osp-din/fa3d08bd4b819d71da421ae73c1bd1d1/114a17ff44eacac9eb358ae0b49fe3cc/OSPDINDIN.ttf') format('truetype');
+	font-weight: normal;
+  	font-style: normal;
+}
+/*  */
+h1 {
+	font-family: 'OSPDIN';
+	text-align: center;
+	background-color: #DECADE;
+	padding: 30px 0 22px 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.entry-title {
+	font-size: 80px; !important
+}
+.entry-content {
+	padding: 10px;
+}
+
+a, a:hover, a:visited, a:focus {
+	border-bottom: 1px solid black;
+	text-decoration: none;
+	color: #533454;
+}
+
+@media print {
+}
+@media screen and (max-width: 600px) {
+}
